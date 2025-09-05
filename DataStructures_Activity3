@@ -2,19 +2,14 @@
 using namespace std;
 
 int main() {
-    int hours, minutes, totalMinutes;
+    int hours = 7;
+    int minutes = 12;
+    int totalMinutes;
 
-    // Input section
-    cout << "Input hours: ";
-    cin >> hours;
-
-    cout << "Input minutes: ";
-    cin >> minutes;
-
-    // Calculation
     totalMinutes = (hours * 60) + minutes;
 
-    // Output
+    cout << "Input hours: " << hours << endl;
+    cout << "Input minutes: " << minutes << endl;
     cout << "Total: " << totalMinutes << " minutes" << endl;
 
     return 0;
